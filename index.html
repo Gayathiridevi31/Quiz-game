@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+        <div class="quiz-container">
+            <h1><b>JAVASCRIPT QUIZ</b></h1>
+            <div id="intro">
+                <p>Welcome to the General Knowledge Quiz!click below to start</p>
+                <button id="startButton" onclick=" startQuiz()">Start Quiz</button>
+            </div>
+            <div id="quiz" style="display: none;"></div>
+            <button id="nextButton" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <button id="submitButton" onclick="submitQuiz()" style="display: none;">Submit Button</button>
+            <div id="result" style="display: none;"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
